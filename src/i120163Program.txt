@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+	"time"
+	
+	"math/rand"
+)
+
+func main() {
+	fmt.Println("Hi Mr. X, Y and Z ?")
+	fmt.Println("You are getting late man.... It's ", time.Now());
+	fmt.Println("And you know what I'm very unexpected... I'm different every time you run me. I'm ", rand.Intn(100))
+	fmt.Print("You print without 'ln' I'll kill you :)")
+}
